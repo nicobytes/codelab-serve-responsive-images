@@ -11,8 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "http-server": "^0.11.1"
+<<<<<<< HEAD
   },
   "devDependencies": {
     "sharp": "^0.22.1"
+=======
+>>>>>>> 8fb14fb... 🎉 init
   }
 }
