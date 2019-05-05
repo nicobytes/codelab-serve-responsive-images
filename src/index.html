@@ -20,9 +20,11 @@
         Images
       </h1>
     </header>
-    <img
-      src="assets/images/house.jpg"/>
-    <img
-      src="assets/images/room.jpg"/>
+      <picture>
+        <source srcset="assets/images/image-small.jpg" media="(max-width:  480px)" />
+        <source srcset="assets/images/image-medium.jpg" media="(max-width: 640px)" />
+        <source srcset="assets/images/image.jpg" media="(max-width: 1200px)" />
+        <img src="assets/images/image.jpg" />
+      </picture>
   </body>
 </html>
